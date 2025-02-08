@@ -318,31 +318,31 @@ LIMIT 10
 
 ------------------------------------------------------------------------------------
 
--- 1) 기본 매출 분석
--- [Category, Amount] → 제품 카테고리별 매출 기여도 분석
--- [Style, Amount] → 특정 스타일별 수익성 비교
--- [Category, Qty, Amount] → 카테고리별 판매량과 총 매출 비교
--- [Style, Qty, Amount] → 스타일별 판매량과 총 매출 비교
--- 2) 수익성 최적화를 위한 제품 특성 분석
--- [Category, Size, Amount] → 카테고리와 사이즈 조합별 수익성 분석
--- [Style, Size, Amount] → 스타일과 사이즈 조합별 수익성 분석
--- [Category, Size, Qty, Amount] → 특정 카테고리에서 가장 많이 팔리는 사이즈 조합 분석
--- [Style, Size, Qty, Amount] → 특정 스타일에서 가장 많이 팔리는 사이즈 조합 분석
--- 3) 지역별 수익성 분석
--- [ship-city, Category, Amount] → 도시별 인기 카테고리 분석
--- [ship-state, Category, Amount] → 주/지역별 인기 카테고리 분석
--- [ship-city, Style, Amount] → 도시별 인기 스타일 분석
--- [ship-state, Style, Amount] → 주/지역별 인기 스타일 분석
--- 4) 배송과 매출 간 관계 분석
--- [ship-service-level, Amount] → 배송 서비스 수준과 매출 간의 관계
--- [ship-service-level, Qty, Amount] → 빠른 배송이 판매량에 미치는 영향
--- [Courier Status, Amount] → 배송 상태가 매출에 미치는 영향
--- [ship-service-level, Courier Status, Amount] → 배송 속도와 성공적인 배송이 매출에 미치는 영향
--- 5) 통화 및 가격 전략 분석
--- [currency, Amount] → 여러 통화로 결제된 제품의 매출 차이 분석
--- [Category, currency, Amount] → 통화에 따른 카테고리별 매출 차이
--- [ship-state, currency, Amount] → 주/지역별 통화 사용 패턴과 매출 관계
--- [ship-service-level, currency, Amount] → 특정 배송 서비스와 통화 간의 관계 분석
+1) 기본 매출 분석
+[Category, Amount] → 제품 카테고리별 매출 기여도 분석
+[Style, Amount] → 특정 스타일별 수익성 비교
+[Category, Qty, Amount] → 카테고리별 판매량과 총 매출 비교
+[Style, Qty, Amount] → 스타일별 판매량과 총 매출 비교
+2) 수익성 최적화를 위한 제품 특성 분석
+[Category, Size, Amount] → 카테고리와 사이즈 조합별 수익성 분석
+[Style, Size, Amount] → 스타일과 사이즈 조합별 수익성 분석
+[Category, Size, Qty, Amount] → 특정 카테고리에서 가장 많이 팔리는 사이즈 조합 분석
+[Style, Size, Qty, Amount] → 특정 스타일에서 가장 많이 팔리는 사이즈 조합 분석
+3) 지역별 수익성 분석
+[ship-city, Category, Amount] → 도시별 인기 카테고리 분석
+[ship-state, Category, Amount] → 주/지역별 인기 카테고리 분석
+[ship-city, Style, Amount] → 도시별 인기 스타일 분석
+[ship-state, Style, Amount] → 주/지역별 인기 스타일 분석
+4) 배송과 매출 간 관계 분석
+[ship-service-level, Amount] → 배송 서비스 수준과 매출 간의 관계
+[ship-service-level, Qty, Amount] → 빠른 배송이 판매량에 미치는 영향
+[Courier Status, Amount] → 배송 상태가 매출에 미치는 영향
+[ship-service-level, Courier Status, Amount] → 배송 속도와 성공적인 배송이 매출에 미치는 영향
+5) 통화 및 가격 전략 분석
+[currency, Amount] → 여러 통화로 결제된 제품의 매출 차이 분석
+[Category, currency, Amount] → 통화에 따른 카테고리별 매출 차이
+[ship-state, currency, Amount] → 주/지역별 통화 사용 패턴과 매출 관계
+[ship-service-level, currency, Amount] → 특정 배송 서비스와 통화 간의 관계 분석
 ------------------------------------------------------------------------------------
 
 -- 1) 기본 매출 분석
